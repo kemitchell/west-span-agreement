@@ -20,6 +20,6 @@ The Agreement aims to be fair to developers and clients. It acknowledges the nee
 
 The Agreement believes:
 
-- Permissively licensed software is compatible with the start-up model
+- Permissively licensed software is compatible with the start-up model.
 - A richer software commons benefits all.
 - Software made of small, modular components is better software.
