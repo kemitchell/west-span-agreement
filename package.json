@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "devDependencies": {
+    "commonform-cli": "^0.4.0"
+  },
+  "scripts":{
+    "test":"commonform lint < Agreement.commonform"
+  }
+}
