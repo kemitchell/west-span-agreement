@@ -11,7 +11,7 @@ Get a Lawyer
 
 This agreement isn't legal advice, and contributors to this agreement aren't your lawyers. The agreement is like a demo: It meets one particular set of needs using one particular framework. Your needs are probably different. The framework may be plain wrong for your deal.
 
-Get a lawyer, exercise, and eat your vegetables.
+Get a lawyer and eat your vegetables.
 
 About the Agreement
 -------------------
