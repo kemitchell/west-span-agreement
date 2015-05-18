@@ -11,7 +11,7 @@ Coverage Comments
 Comments in the agreement indicate which portions are implicated in which scenarios:
 
 ```commonform
-# scenario: late delivery
+# Scenario: Late Delivery
 Deadlines \\ If <Developer> delivers ...
 ```
 
