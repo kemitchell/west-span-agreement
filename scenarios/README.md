@@ -1,7 +1,7 @@
 Scenario Files
 ==============
 
-Scenario files describe a specific sets of circumstances and desired resulting outcomes under the agreement, with references and optional commentary supporting those conclusions.
+Scenario files describe a specific sets of circumstances and desired resulting outcomes under the agreement, with authorities and optional commentary supporting those conclusions.
 
 Lawyers may think of scenarios as hypothetical cases played out under the agreement. Programmers may think of scenarios as acceptance tests.
 
@@ -44,9 +44,9 @@ facts:
 outcomes:
   - A legal or factual outcome under the agreement
   - There may be more than one.
-references:
+authorities:
   - A reference or citation
   - There may be more than one.
-  - References should ideally support each outcome.
+  - Authorities should ideally support each outcome.
 notes: Optional notes about the scenario
 ```

@@ -19,10 +19,10 @@ var validScenario = function(argument) {
     Array.isArray(argument.facts) &&
     argument.facts.length > 0 &&
     argument.facts.every(nonEmptyString) &&
-    // References
-    Array.isArray(argument.references) &&
-    argument.references.length > 0 &&
-    argument.references.every(nonEmptyString) &&
+    // Authorities
+    Array.isArray(argument.authorities) &&
+    argument.authorities.length > 0 &&
+    argument.authorities.every(nonEmptyString) &&
     // Desired outcomes
     Array.isArray(argument.outcomes) &&
     argument.outcomes.length > 0 &&
@@ -35,8 +35,8 @@ var validScenario = function(argument) {
   );
 };
 
-glob('references/**.md', function(error, referenceFiles) {
-  var referenceNames = referenceFiles
+glob('authorities/**.md', function(error, authorityFiles) {
+  var authorityNames = authorityFiles
     .map(function(fileName) {
       return path.basename(fileName, '.md');
     });
@@ -59,14 +59,14 @@ glob('references/**.md', function(error, referenceFiles) {
                 ' is not a complete scenario.'
               );
             } else {
-              scenario.references
-                .forEach(function(scenarioName) {
-                  if (referenceNames.indexOf(scenarioName) < 0) {
+              scenario.authorities
+                .forEach(function(authorityName) {
+                  if (authorityNames.indexOf(authorityName) < 0) {
                     foundProblem = true;
                     console.error(
                       '"' + path.basename(scenarioFile, '.yaml') + '"' +
                       ' refers to missing source ' +
-                      '"' + scenarioName + '".'
+                      '"' + authorityName + '".'
                     );
                   }
                 });
