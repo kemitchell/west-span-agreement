@@ -1,0 +1,9 @@
+---
+facts:
+  - The parties lose their copies of the signing certificate for the agreement.
+outcomes:
+  - Developer can determine Client's legal name from the face of the contract.
+  - Client can determine Developer's legal name from the face of the contract.
+  - Either party can determine the date of the agreement.
+references:
+  - California Evidence Code 622

@@ -6,7 +6,7 @@ var through2 = require('through2');
 
 var AGREEMENT = process.argv[2];
 
-var COVERAGE_COMMENT = /^# scenario:\s+(.+)\s+$/
+var COVERAGE_COMMENT = /^\s*#\s*Scenario:\s+(.+)\s*$/
 var FORM_START = /^\s*(.+)?\\\\|!!/;
 
 glob('scenarios/**.yaml', function(error, scenarioFiles) {
