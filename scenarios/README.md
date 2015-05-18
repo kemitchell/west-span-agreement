@@ -22,13 +22,15 @@ Automated Checks
 
 Automated scripts run to ensure that:
 
-1. Each scenario plays is referenced somewhere in the agreement.
+1. Each scenario is covered somewhere in the agreement.
 
-2. Each part of the agreement covers to some scenario.
+2. Each part of the agreement covers some scenario.
 
-3. Each scenario referenced in agreement corresponds to a scenario file.
+3. Each scenario referenced in the agreement corresponds to a scenario file.
 
-4. Scenario files are uniformly structured and contain all required kinds of information.
+4. Each authority referenced in a scenario corresponds to an authority file.
+
+5. Scenario files are uniformly structured and contain all required kinds of information.
 
 Scenario File Format
 --------------------
@@ -47,6 +49,5 @@ outcomes:
 authorities:
   - A reference or citation
   - There may be more than one.
-  - Authorities should ideally support each outcome.
 notes: Optional notes about the scenario
 ```
