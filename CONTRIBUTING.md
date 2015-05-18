@@ -43,7 +43,7 @@ If you're new to to GitHub or this process, you can refer to [GitHub's workflow 
 Automated Testing
 -----------------
 
-The project utilizes software to check revisions for technical and other errors. [Travis CI](https://travis-ci.org) will run these checks for you when you open a pull request.
+The project utilizes software to check revisions for technical and other errors. Checks also ensure that each provision of the form addresses one or more factual scenarios, which in turn reference one or more sources. [Travis CI](https://travis-ci.org) will run these checks for you when you open a pull request. A maintainer will assist you in adding any additional scenarios or reference sources needed to keep the agreement rigorously founded.
 
 Style and Structure
 -------------------
